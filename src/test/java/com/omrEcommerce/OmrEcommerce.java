@@ -26,6 +26,8 @@ public class OmrEcommerce {
 	public String orderNum;
 
 	private void search() throws InterruptedException, AWTException {
+		
+		System.out.println("hello");
 		WebDriver driver = new EdgeDriver();
 
 		driver.get("https://www.omrbranch.com/");
